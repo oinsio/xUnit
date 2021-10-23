@@ -1,6 +1,6 @@
-from WasRun import WasRun
+from xUnit import WasRun
 
-test = WasRun("testMethod")
+test = WasRun("test_method")
 print(test.wasRun)
-test.testMethod()
+test.run()
 print(test.wasRun)
